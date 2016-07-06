@@ -6,7 +6,7 @@ if ($_GET["cfsecr"] == getenv('cfsecr')){
     devmode($_GET["zone"]); 
   }
 } else {
-  echo "Hello World!"
+  echo "Hello World!";
 }
 
 ?>
